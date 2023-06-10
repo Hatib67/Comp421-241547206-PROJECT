@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-form input,
+#task-form select {
+    margin-right: 10px;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task .title {
+    font-weight: bold;
+}
+
+.task .description {
+    margin-top: 5px;
+}
+
+.task .due-date {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.task .status {
+    margin-top: 5px;
+}
+
+.task .edit-btn,
+.task .delete-btn {
+    margin-top: 10px;
+}
